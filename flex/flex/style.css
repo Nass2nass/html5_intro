@@ -1,0 +1,40 @@
+
+.flex-container1
+{
+  border: 2px solid red; gap: 5px; padding: 5px; display: flex; 
+justify-content: space-between; height: 150px;
+}
+
+.flex-items1
+{
+  border: 1px solid black; flex-grow: 1; font-size: 20px; display: flex; align-items: center; justify-content: center; border-radius: 10px;
+}
+
+.flex-items1:last-child
+{
+  background-color: red;
+}
+
+.flex-items1:first-child
+{
+  flex-grow: 4;
+}
+
+.flex-container2
+{
+  border: 3px solid black; padding: 5px; display: flex; justify-content: space-between; width: 200px; flex-direction: column; gap: 5px;
+}
+
+.flex-items2
+{ 
+  border: 1px solid green; height: 150px; font-size: 30px; display: flex; justify-content: center; align-items: center; border-radius: 10px; width: 200px;
+}
+
+
+@media screen and (max-width: 780px)
+{
+ .flex-container
+{
+  flex-wrap: wrap;
+}
+}

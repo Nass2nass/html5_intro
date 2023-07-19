@@ -1,0 +1,33 @@
+body
+{
+ border: 5px solid black; height: 100vh; padding: 3px;
+background-color: #fff;
+}
+
+header
+{
+  border: 3px solid black; height: 50px; padding:3px
+}
+
+header div
+{
+  border: 3px solid blue; height: 40px; display: flex; padding: 2px; justify-content: space-between;
+}
+
+.lecturer-logo
+{
+  border: 2px solid red; width: 200px; height: 30px; 
+ }
+.lecturer-logo a
+{ border: 1px solid green; width: inherit; display: flex; justify-content: center; align-items: center;
+  }
+
+#lecturer-link
+{
+   border: 3px solid yellow; height: 30px; width: 400px;
+}
+
+#lecturer-link a
+{
+  border: 1px solid grey; width: inherit; display: flex; justify-content: center; align-items: center
+}
